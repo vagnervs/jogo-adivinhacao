@@ -1,7 +1,7 @@
 import random
 computador = random.randint(0, 5)
 print('-=-' * 30)
-print(' Vou pensar em um número entre 0  e 5. Tente adivinhar... ')
+print(' Vou pensar em um número entre 0 e 5. Tente adivinhar... ')
 print('-=-' * 30)
 jogador = int(input('Em que nº eu pensei ? '))
 if jogador == computador:

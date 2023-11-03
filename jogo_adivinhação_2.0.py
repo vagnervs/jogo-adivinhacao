@@ -11,7 +11,7 @@ while not acertou:
         acertou = True
     else:
         if jogador < comp:
-            print('Mais! Tente mais uma vez. ')
+            print('Mais! Tente mais uma vez.')
         else:
             print('Menos! Tente novamente. ')
 print('Acertou com {} tentativas. Parabéns!'.format(palpites))
